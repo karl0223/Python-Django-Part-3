@@ -8,7 +8,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 
 DATABASE_URL = os.environ.get('DATABASE_URL')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['storefront-asnk.onrender.com']
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
